@@ -7,20 +7,38 @@
     <title>Document</title>
 </head>
 <body>
-    <H1>Performing addition in javascript</H1>
-    <p id="demo"></p>
+    <H1>Performing Operations on Operands in javascript</H1>
+    <!--
+     ENTER NUMBER 1 <input type ="text" name="num1"><BR>
+    ENTER NUMBER 2 <input type ="text" name="num2" ><BR>
+    <input type = "button" value = "Addition" onclick="num1.answer.value += 'num1+num2' " >
+    <Input type="text" name="answer"/>
+    <input type = "button" value = "substractions" ;>
+    <input type = "button" value = "Multiplication" ;>
+    <input type = "button" value = "Division"
+    -->
     
 
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo4"></p>
     <script>
-    let x, y, z;  // Statement 1
+    let x, y, z ,i;  // Statement 1
     x = 9;        // Statement 2
     y = 8;        // Statement 3
     z = x + y;    // Statement 4
+    i = x-y;
+    k = x*y;
+    j = x/y;
     
-    document.getElementById("demo").innerHTML = "the value of x is" +x;
-    document.getElementById("demo").innerHTML = "the value of y is" +y;
-    document.getElementById("demo").innerHTML ="the value of z is"  +z;   
+    document.getElementById("demo").innerHTML = "Addition : "  +x;
+    document.getElementById("demo1").innerHTML = " Substraction : "  +i;
+    document.getElementById("demo2").innerHTML = " Multiplication : "  +k;
+    document.getElementById("demo4").innerHTML = "Division : "  +j;
     </script>
+
+
     
 </body>
 </html>
